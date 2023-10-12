@@ -1,0 +1,67 @@
+.element {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1150px;
+  height: 743px;
+}
+
+.element .overlap-group {
+  position: relative;
+  height: 743px;
+  background-image: url(./img/image-9.png);
+  background-size: 100% 100%;
+}
+
+.element .text-wrapper {
+  position: absolute;
+  width: 1064px;
+  height: 199px;
+  top: 209px;
+  left: 43px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .div {
+  position: absolute;
+  width: 742px;
+  height: 183px;
+  top: 26px;
+  left: 204px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .image {
+  left: 620px;
+  position: absolute;
+  width: 404px;
+  height: 273px;
+  top: 453px;
+  object-fit: cover;
+}
+
+.element .img {
+  left: 141px;
+  position: absolute;
+  width: 404px;
+  height: 273px;
+  top: 453px;
+  object-fit: cover;
+}

@@ -1,0 +1,142 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 320px;
+  height: 970px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  height: 970px;
+}
+
+.screen .iconlogowhite {
+  position: absolute;
+  width: 160px;
+  height: 35px;
+  top: 27px;
+  left: 30px;
+}
+
+.screen .frame {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  left: 260px;
+}
+
+.screen .view {
+  position: absolute;
+  width: 83px;
+  height: 205px;
+  top: 98px;
+  left: 30px;
+}
+
+.screen .text-wrapper {
+  width: 63px;
+  top: 0;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .div {
+  width: 62px;
+  top: 60px;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-2 {
+  width: 75px;
+  top: 121px;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  width: 75px;
+  top: 181px;
+  position: absolute;
+  height: 24px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .line {
+  top: 127px;
+  left: 30px;
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.screen .img {
+  top: 187px;
+  left: 30px;
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.screen .line-2 {
+  top: 247px;
+  left: 30px;
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.screen .line-3 {
+  top: 307px;
+  left: 32px;
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.screen .group {
+  position: absolute;
+  width: 320px;
+  height: 970px;
+  top: 0;
+  left: 0;
+}

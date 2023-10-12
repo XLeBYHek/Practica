@@ -1,0 +1,64 @@
+.element {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 580px;
+  height: 743px;
+}
+
+.element .overlap-group {
+  position: relative;
+  height: 743px;
+  background-image: url(./img/image-5.png);
+  background-size: 100% 100%;
+}
+
+.element .text-wrapper {
+  position: absolute;
+  width: 530px;
+  height: 233px;
+  top: 456px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .image {
+  position: absolute;
+  width: 580px;
+  height: 387px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.element .div {
+  position: absolute;
+  height: 37px;
+  top: 406px;
+  left: 158px;
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element .span {
+  font-family: "Playfair Display", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+}
